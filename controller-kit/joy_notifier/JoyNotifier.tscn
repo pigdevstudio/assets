@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://assets/ActionNotifier.tscn" type="PackedScene" id=1]
-[ext_resource path="res://assets/JoyNotifier.gd" type="Script" id=2]
+[ext_resource path="res://action_notifier/ActionNotifier.tscn" type="PackedScene" id=1]
+[ext_resource path="res://joy_notifier/JoyNotifier.gd" type="Script" id=2]
 
 
 [node name="JoyNotifier" instance=ExtResource( 1 )]
