@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://transition_rect/materals/transition_overlay_shader.shader" type="Shader" id=1]
+[ext_resource path="res://transition_rect/transitions/bilinear_gradient.png" type="Texture" id=2]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/cutoff = 0.0
+shader_param/smooth_percent = 0.1
+shader_param/transition_texture = ExtResource( 2 )

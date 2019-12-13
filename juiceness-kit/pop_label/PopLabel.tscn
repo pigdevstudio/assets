@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://pop_label/PopLabel.gd" type="Script" id=1]
+
+[node name="PopLabel" type="Label"]
+margin_right = 80.0
+margin_bottom = 32.0
+rect_pivot_offset = Vector2( 40, 16 )
+align = 1
+valign = 1
+autowrap = true
+script = ExtResource( 1 )
+
+[node name="Tween" type="Tween" parent="."]

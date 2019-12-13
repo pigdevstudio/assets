@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://music_fader/MusicFader.gd" type="Script" id=1]
+
+[node name="MusicFader" type="AudioStreamPlayer"]
+autoplay = true
+bus = "BGM"
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": "Add this node as an autoload in Project -> Project Settings -> AutoLoad"
+}
+fade_time = 0.5
+
+[node name="Tween" type="Tween" parent="."]
