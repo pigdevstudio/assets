@@ -1,0 +1,767 @@
+[gd_scene load_steps=34 format=2]
+
+[ext_resource path="res://tilesets/tileset_library.gd" type="Script" id=1]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_01.png" type="Texture" id=2]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_02.png" type="Texture" id=3]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_03.png" type="Texture" id=4]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_04.png" type="Texture" id=5]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_05.png" type="Texture" id=6]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_06.png" type="Texture" id=7]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_07.png" type="Texture" id=8]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_08.png" type="Texture" id=9]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_09.png" type="Texture" id=10]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_10.png" type="Texture" id=11]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_11.png" type="Texture" id=12]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_12.png" type="Texture" id=13]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_13.png" type="Texture" id=14]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_14.png" type="Texture" id=15]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_15.png" type="Texture" id=16]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_16.png" type="Texture" id=17]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_17.png" type="Texture" id=18]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_18.png" type="Texture" id=19]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_19.png" type="Texture" id=20]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_20.png" type="Texture" id=21]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_21.png" type="Texture" id=22]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_22.png" type="Texture" id=23]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_23.png" type="Texture" id=24]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_24.png" type="Texture" id=25]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_25.png" type="Texture" id=26]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_26.png" type="Texture" id=27]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_27.png" type="Texture" id=28]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_28.png" type="Texture" id=29]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_29.png" type="Texture" id=30]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_30.png" type="Texture" id=31]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_31.png" type="Texture" id=32]
+[ext_resource path="res://tilesets/mushroom/tiles/mushroom_32.png" type="Texture" id=33]
+
+[node name="mushroom" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+tiles_folder = "res://tilesets/mushroom/tiles"
+
+[node name="mushroom_01" type="Sprite" parent="." index="0"]
+
+editor/display_folded = true
+position = Vector2( 416, 32 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_01" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_01/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_02" type="Sprite" parent="." index="1"]
+
+editor/display_folded = true
+position = Vector2( 32, 32 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_02" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_02/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_03" type="Sprite" parent="." index="2"]
+
+editor/display_folded = true
+position = Vector2( 96, 32 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_03" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_03/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_04" type="Sprite" parent="." index="3"]
+
+editor/display_folded = true
+position = Vector2( 160, 32 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_04" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_04/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_05" type="Sprite" parent="." index="4"]
+
+editor/display_folded = true
+position = Vector2( 224, 32 )
+texture = ExtResource( 6 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_05" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_05/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_06" type="Sprite" parent="." index="5"]
+
+editor/display_folded = true
+position = Vector2( 288, 32 )
+texture = ExtResource( 7 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_06" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_06/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_07" type="Sprite" parent="." index="6"]
+
+editor/display_folded = true
+position = Vector2( 352, 32 )
+texture = ExtResource( 8 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_07" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_07/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_08" type="Sprite" parent="." index="7"]
+
+editor/display_folded = true
+position = Vector2( 800, 32 )
+texture = ExtResource( 9 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_08" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_08/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_09" type="Sprite" parent="." index="8"]
+
+editor/display_folded = true
+position = Vector2( 864, 32 )
+texture = ExtResource( 10 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_09" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_09/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_10" type="Sprite" parent="." index="9"]
+
+editor/display_folded = true
+position = Vector2( 928, 32 )
+texture = ExtResource( 11 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_10" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_10/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_11" type="Sprite" parent="." index="10"]
+
+editor/display_folded = true
+position = Vector2( 992, 32 )
+texture = ExtResource( 12 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_11" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_11/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_12" type="Sprite" parent="." index="11"]
+
+editor/display_folded = true
+position = Vector2( 480, 32 )
+texture = ExtResource( 13 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_12" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_12/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_13" type="Sprite" parent="." index="12"]
+
+editor/display_folded = true
+position = Vector2( 544, 32 )
+texture = ExtResource( 14 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_13" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_13/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_14" type="Sprite" parent="." index="13"]
+
+editor/display_folded = true
+position = Vector2( 608, 32 )
+texture = ExtResource( 15 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_14" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_14/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_15" type="Sprite" parent="." index="14"]
+
+editor/display_folded = true
+position = Vector2( 672, 32 )
+texture = ExtResource( 16 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_15" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_15/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_16" type="Sprite" parent="." index="15"]
+
+editor/display_folded = true
+position = Vector2( 736, 32 )
+texture = ExtResource( 17 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_16" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_16/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_17" type="Sprite" parent="." index="16"]
+
+editor/display_folded = true
+position = Vector2( 32, 96 )
+texture = ExtResource( 18 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_17" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_17/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_18" type="Sprite" parent="." index="17"]
+
+editor/display_folded = true
+position = Vector2( 96, 96 )
+texture = ExtResource( 19 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_18" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_18/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_19" type="Sprite" parent="." index="18"]
+
+editor/display_folded = true
+position = Vector2( 160, 96 )
+texture = ExtResource( 20 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_19" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_19/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_20" type="Sprite" parent="." index="19"]
+
+editor/display_folded = true
+position = Vector2( 224, 96 )
+texture = ExtResource( 21 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_20" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_20/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_21" type="Sprite" parent="." index="20"]
+
+editor/display_folded = true
+position = Vector2( 288, 96 )
+texture = ExtResource( 22 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_21" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_21/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_22" type="Sprite" parent="." index="21"]
+
+editor/display_folded = true
+position = Vector2( 352, 96 )
+texture = ExtResource( 23 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_22" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_22/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_23" type="Sprite" parent="." index="22"]
+
+editor/display_folded = true
+position = Vector2( 416, 96 )
+texture = ExtResource( 24 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_23" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_23/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_24" type="Sprite" parent="." index="23"]
+
+editor/display_folded = true
+position = Vector2( 480, 96 )
+texture = ExtResource( 25 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_24" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_24/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -4, 32, -4, 32, 32, -32, 32 )
+
+[node name="mushroom_25" type="Sprite" parent="." index="24"]
+
+editor/display_folded = true
+position = Vector2( 544, 96 )
+texture = ExtResource( 26 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_25" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_25/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -32, 32, -32, 32, 32, -32, 32 )
+
+[node name="mushroom_26" type="Sprite" parent="." index="25"]
+
+editor/display_folded = true
+position = Vector2( 608, 96 )
+texture = ExtResource( 27 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_26" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_26/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -16, -32, 16, -32, 16, 32, -16, 32 )
+
+[node name="mushroom_27" type="Sprite" parent="." index="26"]
+
+position = Vector2( 672, 96 )
+texture = ExtResource( 28 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_27" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_27/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -24, -32, 24, -32, 16, -19.3633, 16, 32, -16, 32, -16, -20 )
+
+[node name="mushroom_28" type="Sprite" parent="." index="27"]
+
+position = Vector2( 736, 96 )
+texture = ExtResource( 29 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_28" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_28/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -32, -32, 28, -32, 16, -20, 16, 32, -16, 32, -16, -20 )
+
+[node name="mushroom_29" type="Sprite" parent="." index="28"]
+
+editor/display_folded = true
+position = Vector2( 800, 96 )
+texture = ExtResource( 30 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_29" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_29/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -16, -32, 16, -32, 16, 32, -16, 32 )
+
+[node name="mushroom_30" type="Sprite" parent="." index="29"]
+
+position = Vector2( 864, 96 )
+texture = ExtResource( 31 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_30" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_30/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -16, -32, 16, -32, 16, 16, 24, 32, -24, 32, -16, 16 )
+
+[node name="mushroom_31" type="Sprite" parent="." index="30"]
+
+editor/display_folded = true
+position = Vector2( 928, 96 )
+texture = ExtResource( 32 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_31" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_31/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -16, -32, 16, -32, 16, 12, 32, 32, -32, 32, -16, 12 )
+
+[node name="mushroom_32" type="Sprite" parent="." index="31"]
+
+editor/display_folded = true
+position = Vector2( 992, 96 )
+texture = ExtResource( 33 )
+_sections_unfolded = [ "Offset" ]
+
+[node name="static_body" type="StaticBody2D" parent="mushroom_32" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="collision_polygon_2d" type="CollisionPolygon2D" parent="mushroom_32/static_body" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -16, -32, 16, -32, 16, 32, -16, 32 )
+
+

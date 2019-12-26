@@ -1,0 +1,21 @@
+[gd_resource type="SpriteFrames" load_steps=4 format=2]
+
+[ext_resource path="res://characters/enemies/saw/saw_01.png" type="Texture" id=1]
+[ext_resource path="res://characters/enemies/saw/saw_02.png" type="Texture" id=2]
+[ext_resource path="res://characters/enemies/saw/saw_03.png" type="Texture" id=3]
+
+[resource]
+
+resource_name = "saw"
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 4.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": false,
+"name": "dead",
+"speed": 1.0
+} ]
+

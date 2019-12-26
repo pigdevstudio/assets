@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_supressing_fire.ogg-ad76f19496fa18aa530909fe9d7e30b8.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_female/source/war_supressing_fire.ogg"
+dest_files=[ "res://.import/war_supressing_fire.ogg-ad76f19496fa18aa530909fe9d7e30b8.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

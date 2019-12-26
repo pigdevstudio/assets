@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_hold.ogg-00c93d7b2b28d7d2ac6fb679571b2564.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_female/source/war_hold.ogg"
+dest_files=[ "res://.import/war_hold.ogg-00c93d7b2b28d7d2ac6fb679571b2564.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

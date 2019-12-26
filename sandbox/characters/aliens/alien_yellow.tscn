@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/aliens/yellow_sprite_frames.tres" type="SpriteFrames" id=1]
+
+[node name="alien_yellow" type="AnimatedSprite" index="0"]
+
+frames = ExtResource( 1 )
+animation = "walk"
+frame = 1
+centered = false
+offset = Vector2( -36, -86 )
+
+

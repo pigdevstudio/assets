@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_target_engaged.ogg-46357fb05dd59a3a4408e4e103c1a012.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_male/source/war_target_engaged.ogg"
+dest_files=[ "res://.import/war_target_engaged.ogg-46357fb05dd59a3a4408e4e103c1a012.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

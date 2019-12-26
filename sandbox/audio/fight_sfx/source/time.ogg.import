@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/time.ogg-aa83dfbe41db05b2f14eccc4ab627c9a.oggstr"
+
+[deps]
+
+source_file="res://audio/fight_sfx/source/time.ogg"
+dest_files=[ "res://.import/time.ogg-aa83dfbe41db05b2f14eccc4ab627c9a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

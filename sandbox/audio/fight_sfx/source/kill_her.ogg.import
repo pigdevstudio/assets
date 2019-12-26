@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/kill_her.ogg-c931ce52dd31ff563f3d1606f9c1e3b3.oggstr"
+
+[deps]
+
+source_file="res://audio/fight_sfx/source/kill_her.ogg"
+dest_files=[ "res://.import/kill_her.ogg-c931ce52dd31ff563f3d1606f9c1e3b3.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

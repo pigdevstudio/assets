@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_cover_me.ogg-7a49c892b7aa8d11449d9652d9a0dc74.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_male/source/war_cover_me.ogg"
+dest_files=[ "res://.import/war_cover_me.ogg-7a49c892b7aa8d11449d9652d9a0dc74.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

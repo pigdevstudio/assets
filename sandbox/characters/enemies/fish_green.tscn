@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://characters/enemies/fish_green.tres" type="SpriteFrames" id=1]
+
+[node name="fish_green" type="AnimatedSprite"]
+
+frames = ExtResource( 1 )
+animation = "idle"
+
+

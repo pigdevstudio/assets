@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_rpg.ogg-dc6d6688dbcc40d93d555e0f911fa59f.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_male/source/war_rpg.ogg"
+dest_files=[ "res://.import/war_rpg.ogg-dc6d6688dbcc40d93d555e0f911fa59f.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
