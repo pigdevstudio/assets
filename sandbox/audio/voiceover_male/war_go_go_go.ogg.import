@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_go_go_go.ogg-cd8424177c2ba0468f15de69f6b14bf2.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_male/war_go_go_go.ogg"
+dest_files=[ "res://.import/war_go_go_go.ogg-cd8424177c2ba0468f15de69f6b14bf2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

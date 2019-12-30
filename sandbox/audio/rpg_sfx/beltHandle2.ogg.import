@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/beltHandle2.ogg-b2d0fd85eec2a5bc9ca55f68e4cf75f9.oggstr"
+
+[deps]
+
+source_file="res://audio/rpg_sfx/beltHandle2.ogg"
+dest_files=[ "res://.import/beltHandle2.ogg-b2d0fd85eec2a5bc9ca55f68e4cf75f9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

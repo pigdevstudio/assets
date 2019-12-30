@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_reloading.ogg-355df78d879faceb36012b71e003209c.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_female/war_reloading.ogg"
+dest_files=[ "res://.import/war_reloading.ogg-355df78d879faceb36012b71e003209c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

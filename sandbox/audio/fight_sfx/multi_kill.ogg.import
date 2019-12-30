@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/multi_kill.ogg-d535a2942727230e32e36836654be0a2.oggstr"
+
+[deps]
+
+source_file="res://audio/fight_sfx/multi_kill.ogg"
+dest_files=[ "res://.import/multi_kill.ogg-d535a2942727230e32e36836654be0a2.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

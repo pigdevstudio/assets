@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/chipLay1.ogg-a9f2d3d642c8c4c8363924d566a10538.oggstr"
+
+[deps]
+
+source_file="res://audio/cassino_sfx/chipLay1.ogg"
+dest_files=[ "res://.import/chipLay1.ogg-a9f2d3d642c8c4c8363924d566a10538.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

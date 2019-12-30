@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/bookClose.ogg-76159f51f6f6dd7a1bdd0ee2fff48e87.oggstr"
+
+[deps]
+
+source_file="res://audio/rpg_sfx/bookClose.ogg"
+dest_files=[ "res://.import/bookClose.ogg-76159f51f6f6dd7a1bdd0ee2fff48e87.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Godot Sandbox with Kenney's Asset"
-run/main_scene="res://sample_scene.tscn"
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [importer_defaults]
 
@@ -32,4 +36,5 @@ name_casing=2
 
 [rendering]
 
+quality/2d/use_pixel_snap=true
 environment/default_environment="res://default_env.tres"

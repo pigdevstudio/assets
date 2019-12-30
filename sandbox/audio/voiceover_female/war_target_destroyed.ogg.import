@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/war_target_destroyed.ogg-467f93f4b1199ab749ca8ee1f9cff3cb.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_female/war_target_destroyed.ogg"
+dest_files=[ "res://.import/war_target_destroyed.ogg-467f93f4b1199ab749ca8ee1f9cff3cb.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

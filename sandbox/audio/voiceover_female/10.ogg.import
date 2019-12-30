@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/10.ogg-29698304848c02e59f6a0fb32f3cef04.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_female/10.ogg"
+dest_files=[ "res://.import/10.ogg-29698304848c02e59f6a0fb32f3cef04.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

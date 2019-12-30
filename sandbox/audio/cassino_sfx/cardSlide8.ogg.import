@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cardSlide8.ogg-9c7ba84dca0170ef354c071e75b27f9b.oggstr"
+
+[deps]
+
+source_file="res://audio/cassino_sfx/cardSlide8.ogg"
+dest_files=[ "res://.import/cardSlide8.ogg-9c7ba84dca0170ef354c071e75b27f9b.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

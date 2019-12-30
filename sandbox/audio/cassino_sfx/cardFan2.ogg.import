@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/cardFan2.ogg-74afb4e5529c4163c71ac160649b8ac9.oggstr"
+
+[deps]
+
+source_file="res://audio/cassino_sfx/cardFan2.ogg"
+dest_files=[ "res://.import/cardFan2.ogg-74afb4e5529c4163c71ac160649b8ac9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hurry_up.ogg-b633e7a5e245c1a8e28b4ed52c99304a.oggstr"
+
+[deps]
+
+source_file="res://audio/voiceover_female/hurry_up.ogg"
+dest_files=[ "res://.import/hurry_up.ogg-b633e7a5e245c1a8e28b4ed52c99304a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

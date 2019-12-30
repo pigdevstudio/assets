@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tie_breaker.ogg-4382ebf0c5bd37b6378fbaa626376556.oggstr"
+
+[deps]
+
+source_file="res://audio/fight_sfx/tie_breaker.ogg"
+dest_files=[ "res://.import/tie_breaker.ogg-4382ebf0c5bd37b6378fbaa626376556.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

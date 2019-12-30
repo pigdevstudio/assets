@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/phaserUp2.ogg-212829902301caf1b1c8a09a6ba32474.oggstr"
+
+[deps]
+
+source_file="res://audio/digital_sfx/phaserUp2.ogg"
+dest_files=[ "res://.import/phaserUp2.ogg-212829902301caf1b1c8a09a6ba32474.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

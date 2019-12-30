@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/story_mode.ogg-d060289ee292af9087a8bda88b665fdf.oggstr"
+
+[deps]
+
+source_file="res://audio/fight_sfx/story_mode.ogg"
+dest_files=[ "res://.import/story_mode.ogg-d060289ee292af9087a8bda88b665fdf.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

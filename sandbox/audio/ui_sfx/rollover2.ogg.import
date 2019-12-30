@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/rollover2.ogg-fe4a2422f3813a1f69d5c50bdb4ada59.oggstr"
+
+[deps]
+
+source_file="res://audio/ui_sfx/rollover2.ogg"
+dest_files=[ "res://.import/rollover2.ogg-fe4a2422f3813a1f69d5c50bdb4ada59.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
