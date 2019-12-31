@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/vector_tiles.svg-a6d41874401454d2e09b1a68d28876cd.stex"
+path="res://.import/topdown_shooter_pirates.png-f4096313f085429ec7c4d1fc3a57744d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tilesets/topdown_shooter/vector_tiles.svg"
-dest_files=[ "res://.import/vector_tiles.svg-a6d41874401454d2e09b1a68d28876cd.stex" ]
+source_file="res://tilesets/topdown_shooter/topdown_shooter_pirates.png"
+dest_files=[ "res://.import/topdown_shooter_pirates.png-f4096313f085429ec7c4d1fc3a57744d.stex" ]
 
 [params]
 
