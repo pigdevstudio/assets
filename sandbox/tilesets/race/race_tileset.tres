@@ -1,6 +1,7 @@
 [gd_resource type="TileSet" load_steps=2 format=2]
 
-[ext_resource path="res://tilesets/race/vector_roads.svg" type="Texture" id=1]
+[ext_resource path="res://tilesets/race/racing_roads.svg" type="Texture" id=1]
+
 
 [resource]
 0/name = "vector_roads.svg 0"
