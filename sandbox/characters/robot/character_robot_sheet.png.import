@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/robot_spritesheet.svg-237103498d976039320c3035a42ff92e.stex"
+path="res://.import/character_robot_sheet.png-548807879a9284914a24f729806a35d6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/robot_spritesheet.svg"
-dest_files=[ "res://.import/robot_spritesheet.svg-237103498d976039320c3035a42ff92e.stex" ]
+source_file="res://characters/robot/character_robot_sheet.png"
+dest_files=[ "res://.import/character_robot_sheet.png-548807879a9284914a24f729806a35d6.stex" ]
 
 [params]
 
